@@ -29,8 +29,8 @@ import static android.app.Activity.RESULT_OK;
  */
 public class CustomWebViewModule extends ReactContextBaseJavaModule implements ActivityEventListener {
     public static final String REACT_CLASS = "CustomWebViewModule";
-    private static final int REQUEST_CAMERA = 1;
-    private static final int SELECT_FILE = 2;
+    private static final int REQUEST_CAMERA = 22101;
+    private static final int SELECT_FILE = 22102;
 
     private CustomWebViewPackage aPackage;
     private ValueCallback<Uri[]> filePathCallback;
